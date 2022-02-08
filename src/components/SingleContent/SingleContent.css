@@ -1,0 +1,49 @@
+.media{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    padding: 5px;
+    margin: 8px 0 ;
+    background-color:rgb(75, 74, 74);
+    position: relative;
+    border-radius: 10px;
+    font-size:17px;
+    margin-left: 50px;
+  
+}
+
+@media(max-width:1000px){
+    .media{
+        width:230px;
+    }
+}
+
+.media:hover{
+    background-color: lavender;
+    color: black;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    padding: 8px 0;
+}
+
+.second-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2px;
+    padding-bottom: 3px;
+}
+.rating-green{
+    color: rgb(25, 168, 25);
+    text-align: end;
+    font-weight: bold;    
+}
+
+.rating-red{
+    color: rgb(226, 55, 55);
+    text-align: end;
+    font-weight: bold; 
+}
